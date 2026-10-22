@@ -1,9 +1,9 @@
 # parley-models
 
 Translation model packs for the Parley app (https://github.com/ElenaDenys/parley-models). Converted copies of the OPUS-MT models of the
-Helsinki-NLP group (Apache License 2.0), compressed for phones. See `NOTICE.md` for the credits and for what was changed.
+Helsinki-NLP group (Apache License 2.0; English to German: CC BY 4.0), compressed for phones. See `NOTICE.md` for the credits and for what was changed.
 
-Every release holds one zip per translation direction (`uk-ru.zip`, `ru-uk.zip`, `en-ru.zip`, `ru-en.zip`, `uk-en.zip`, `en-uk.zip`) and
+Every release holds one zip per translation direction (`uk-ru`, `ru-uk`, `en-ru`, `ru-en`, `uk-en`, `en-uk`, `ar-en`, `en-ar`, `ru-ar`, `ar-ru`, `zh-en`, `en-zh`, `el-en`, `en-el`, `es-en`, `en-es`, `fr-en`, `en-fr`, `de-en`, `en-de`, each as `<id>.zip`) and
 `manifest.json` (id, size and SHA-256 of every zip). The app reads `manifest.json` from
 `https://github.com/ElenaDenys/parley-models/releases/latest/download/manifest.json` and downloads the packs the person asks for (Wi-Fi only),
 checking the SHA-256 of every file.
